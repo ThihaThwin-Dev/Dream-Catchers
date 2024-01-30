@@ -1,0 +1,215 @@
+*{
+   margin: 0;
+   font-family: sans-serif;  
+}
+body{
+   background-color: #46485D;
+   overflow-x: hidden;
+}
+/* NavBar */
+.header {
+    background-color: #46485D;
+}
+
+.menu{
+    padding-top: 25px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.home,.service,.account,.support,.login {
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.home,.service,.account,.support{
+    font-family: roadrage;
+}
+.dreaming{
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+    float: left;
+    font-family: pacifico;
+}
+
+.login{
+    background-color: #7E759F;
+    font-size: 17px;
+    font-family: roboto;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    width: 90px;
+    height: 35px;
+}
+/** End of NavBar **/
+
+
+/** Start of First Image Section **/
+.imgsection1 {
+    position: relative;
+    text-align: left;
+    line-height: 2;
+    color: white;   
+}
+.imgtext1 {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+.imgtext{
+    font-family: roboto;
+    color: white;
+}
+.firstslide {
+    width: 100%;
+}
+#btn {
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    font-family: roboto;
+}
+.explore{
+    border: none;
+    color: white;
+    background-color: #5772FF;
+    margin-right: 20px;
+}
+.products {
+    background-color: transparent;
+    border: 1px white solid;
+    color: white;  
+}
+/* End of First Image Section */
+
+/* Start of Middle Content */
+.middletext {
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.middleheader {
+    font-family: roadrage;
+    font-size: 30px;
+    padding-bottom: 2%;
+}
+.middlecontent{
+    font-family: roboto;
+    opacity: 0.5;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 3%;
+}
+.middleicons{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.middleicons img{
+    padding-right: 25px;
+    width: 17%;
+}
+.suntext, .cloudtext, .clovertext{
+    color: white;
+    font-family: roboto;
+    text-align: center;
+    padding-right: 25px;
+}
+/* End of Middle Content */
+
+/* Start of Second Image Section */
+.imgsection2{
+    position: relative;
+}
+.secondslide {
+    margin-top: 5%;
+    width: 100%;
+}
+.imgtext2 {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+/* End of Second Image Section */
+
+/* Start of Image Grid */
+.galleryheader{
+    color: white;
+    font-family: roadrage;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.picturegrid {
+    position: relative;
+}
+.grid {
+    width: 100%;
+    padding: 25px;
+    border-spacing: 15px;
+}
+.grid img {
+    width: 100%;
+    padding-bottom: 25px;
+}
+.gridbtmtext {
+    position: absolute;
+    bottom: 40px;
+    right: 45px;
+    color: white;
+    font-size: 17px;
+    font-family: roadrage;
+}
+/* End of Image Grid */
+
+/* Start of Footer */
+.footer{
+    text-align: center;
+    background-color: #53567B;
+    color: white;
+    padding-top: 12px;
+}
+.footerheader {
+    font-size: 17px;
+    font-family: pacifico;
+    padding: 15px;
+}
+.footertext {
+    font-family: roboto;
+    opacity: 0.5;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.footericons img {
+    margin: 30px;
+}
+/* End of Footer */
+
+/* Start of Font Files */
+@font-face {
+    font-family:'pacifico';
+    src: url(fonts/Pacifico-Regular.ttf);   
+}
+@font-face{
+    font-family:'roboto';
+    src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family:'roadrage';
+    src: url(fonts/RoadRage-Regular.ttf);
+}
+/* Start of Font Files */
+
+
+
+
+
+
